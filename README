@@ -1,0 +1,20 @@
+= www_ditcher
+
+A tiny Rack middleware with a simple mission: to redirect everyone from WWW to a non-WWW version of the URL.
+
+== Installation
+
+Copy www_ditcher.rb to your lib directory and add this to environment.rb:
+
+ config.middleware.use "WWWDitcher"
+ 
+
+== Examples
+
+ www.something.com                  -> something.com
+ www.something.com/some/other.thing -> something.com/some/other.thing
+ www.something.com?some-query=true  -> something.com?some-query=true
+
+== Copyright
+
+Copyright (c) 2010 Ilya Sabanin. See LICENSE for details.
