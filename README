@@ -6,7 +6,7 @@ A tiny Rack middleware with a simple mission: to redirect everyone from WWW to a
 
 Copy www_ditcher.rb to your lib directory and add this to environment.rb:
 
- config.middleware.use "WWWDitcher"
+ config.middleware.use "WwwDitcher"
  
 
 == Examples
