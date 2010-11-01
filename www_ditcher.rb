@@ -4,8 +4,7 @@ class WwwDitcher
     @app = app
   end
 
-  def call(env)
-    
+  def call(env)    
     request = Rack::Request.new(env)
     
     if request.host.starts_with?("www.")
