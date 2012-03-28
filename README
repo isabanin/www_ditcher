@@ -4,8 +4,9 @@ A tiny Rack middleware with a simple mission: to redirect everyone from WWW to a
 
 == Installation
 
-Copy www_ditcher.rb to your lib directory and add this to environment.rb:
+Copy www_ditcher.rb to your lib directory and add this to environment.rb (or in Rails3, application.rb or production.rb):
 
+ require 'www_ditcher'
  config.middleware.use "WwwDitcher"
  
 
@@ -18,3 +19,4 @@ Copy www_ditcher.rb to your lib directory and add this to environment.rb:
 == Copyright
 
 Copyright (c) 2010 Ilya Sabanin. See LICENSE for details.
+
