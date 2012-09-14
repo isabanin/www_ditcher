@@ -18,5 +18,4 @@ Copy www_ditcher.rb to your lib directory and add this to environment.rb (or in 
 
 == Copyright
 
-Copyright (c) 2012 Ilya Sabanin. See LICENSE for details.
-
+Copyright (c) 2012 Ilya Sabanin.
